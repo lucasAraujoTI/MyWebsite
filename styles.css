@@ -1,0 +1,82 @@
+.gradient-background {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+h1 {
+    color: whitesmoke;
+}
+p {
+    color: black;
+}
+.me-auto{
+    display: none;
+}
+.me-3 {
+    margin-left: 70%;
+
+}
+
+#spc, small {
+     color: white;
+            
+            text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
+    
+}
+.col {
+    display: inline-block;
+    height: 350px;
+    
+}
+.fa-brands{
+    font-size: 2rem;
+} 
+a:link { 
+  text-decoration: none; 
+} 
+
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.nav-link {
+    color: white;
+}
+.nav-link:hover {
+    color: gainsboro ;
+}
+.logo {
+    height: 50px;
+    border: 4px solid black;
+    
+}
+
+.read-more {color: black}
+.mb-4 {
+    color: black
+}
+
+.mt-5 {
+    color: black
+}
+
+@media only screen and (min-width: 991px) {
+.imgs {
+    margin-right: 10px; float: left; border-radius: 20px; margin-top: 10px; height: 50%; width: 50%;
+}
+}
+
+@media only screen and (max-width: 991px) {
+.imgs {
+  margin-top: 10px;
+     float: none;
+    height: 100%;
+    width: 100%;
+    margin-bottom: -15px;
+}
+}
+}
+
